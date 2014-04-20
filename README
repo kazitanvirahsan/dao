@@ -1,0 +1,6 @@
+Before using the Table class in your project follow these steps:
+1. In config.xml file add the appropriate information for localhost, database name etc in the provided places.
+2. In the script where you want to use the services of this project require the file dao.php
+3. Once above is done then you can simply 
+	$handle = new Table("YourTableName")
+Now use $handle object to perform all operations on the database. 
